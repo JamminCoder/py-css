@@ -17,6 +17,7 @@ The `-o` flag tells the program where to output the compiled CSS file.
 ![Screenshot from 2021-08-02 18-36-47](https://user-images.githubusercontent.com/73239367/127932297-4800082d-3c30-42fe-9998-51ce044a0e74.png)  
 
 Then open the css file and make sure it worked:  
+## NOTE: The underscores in the CSS file aren't supposed to be there. However this bug was fixed the program works fine now. Will update pics later
 ![Screenshot from 2021-08-02 18-43-19](https://user-images.githubusercontent.com/73239367/127932710-c9a2e3f5-a143-4b62-9d7c-314edaa5c45f.png)  
 
 You can also inherit properties from other classes:  
