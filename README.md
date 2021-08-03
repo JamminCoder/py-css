@@ -1,7 +1,7 @@
 # PyCSS
 
 ## What is it?
-PyCSS is a microlibrary to speed up the process of writing CSS.
+PyCSS is a micro-framework to speed up the process of writing CSS.
 
 ## How does it do it?
 With Python!!!  
