@@ -21,6 +21,10 @@ Then open the css file and make sure it worked:
 ![compiled_css](https://user-images.githubusercontent.com/73239367/128073710-ff8c509d-4f58-418e-8222-87f121a67050.png)
 
 
+If you wish to only use a class to structer child classes, then you can place it outside `CSSClasses`  
+![Screenshot 2021-08-03 153154](https://user-images.githubusercontent.com/73239367/128075006-630d3181-8bbd-476b-ad4b-3bfd1beaeda1.png)  
+`DFlex` will not be compiled to the output file, but can be inherited by other classes.  
+
 You can also inherit properties from other classes:  
 ![inheritence](https://user-images.githubusercontent.com/73239367/128074047-fceb8e22-2820-49b7-80f7-d6ed40d1c4e9.png)
 
