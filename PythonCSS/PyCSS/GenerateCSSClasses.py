@@ -32,7 +32,7 @@ class GenerateCSSClass:
             css_properties = filter_builtins(_class)
             for css_prop in css_properties:
                 css_value = getattr(_class, css_prop)
-                output_class += f"\t{css_prop}: {css_value};\n"
+                output_class += f"\t{replace_underscores(css_prop)}: {css_value};\n"
             output_class += "}\n\n"
             self.compiled_css += output_class
 
