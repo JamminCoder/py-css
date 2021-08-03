@@ -1,7 +1,7 @@
 # PyCSS
 
 ## What is it?
-PyCSS is a micro-framework to speed up the process of writing CSS.
+PyCSS is a micro-framework to speed up the process of writing bulk CSS classes.   
 
 ## How does it do it?
 With Python!!!  
@@ -10,21 +10,24 @@ First download the [https://github.com/Jammin-Coder/py-css/tree/main/PythonCSS](
 
 
 Then within `app.py` and within the `CSSClasses` class, you write Python classes that translate into CSS:  
-![app py](https://user-images.githubusercontent.com/73239367/127931934-d7bebb9b-00b3-45f1-80e1-5ed146d87887.png)  
+![css](https://user-images.githubusercontent.com/73239367/128073098-9bc98671-3018-481c-ac07-7e455e475ef3.png)
+
 
 Then you run `compile.py` with `python3 compile.py -o <output_css_file>.css`: 
 The `-o` flag tells the program where to output the compiled CSS file.  
 ![Screenshot from 2021-08-02 18-36-47](https://user-images.githubusercontent.com/73239367/127932297-4800082d-3c30-42fe-9998-51ce044a0e74.png)  
 
 Then open the css file and make sure it worked:  
-## NOTE: The underscores in the CSS file aren't supposed to be there. However this bug was fixed the program works fine now. Will update pics later
-![Screenshot from 2021-08-02 18-43-19](https://user-images.githubusercontent.com/73239367/127932710-c9a2e3f5-a143-4b62-9d7c-314edaa5c45f.png)  
+![compiled_css](https://user-images.githubusercontent.com/73239367/128073710-ff8c509d-4f58-418e-8222-87f121a67050.png)
+
 
 You can also inherit properties from other classes:  
-![Screenshot from 2021-08-02 18-50-09](https://user-images.githubusercontent.com/73239367/127933203-d41b1713-e83d-4f3e-9e5b-b46d183adba1.png)  
+![inheritence](https://user-images.githubusercontent.com/73239367/128074047-fceb8e22-2820-49b7-80f7-d6ed40d1c4e9.png)
+
 
 which turns into this:  
-![Screenshot from 2021-08-02 18-51-50](https://user-images.githubusercontent.com/73239367/127933335-3d9248b9-f6ec-46bb-8dc8-eca21054fb3f.png)
+![compiled_inheritence](https://user-images.githubusercontent.com/73239367/128074288-2cf67a63-0cfc-45c2-980e-ba00b31ccd75.png)
+
 
 
 Then you can use the CSS file in any web-development project!
